@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+
+h1{
+	font-family: "Open Sans", sans-serif;
+	padding: 1px;
+	margin-bottom: -20px;
+	color: black; 
+}
+
+
+body{
+	margin: 0;
+	min-height: 100vh;
+	background-image: linear-gradient(to bottom,#ff0000, #ffffff);
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.titlebox{
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 25px; 
+}
+
+label{
+	font-family: "Open Sans", sans-serif;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.imageLogo{
+	padding-left: 50px;
+	padding-bottom: 1px;
+	margin-bottom: -20px;
+	width: 100px;
+	height: 100px;
+
+}
+
+.errMsg{
+	font-size: 10px;
+	color: red;
+	margin-top: 5px;
+	margin-bottom:-5px;
+}
+
+.inputContainer{
+	margin-top: -50;
+	display: flex;
+	justify-content: right;
+
+}
+
+.box{
+	display: flex;
+	justify-content: center;
+	flex-direction:  column;
+	align-items: center;
+	background: rgba(255,255,255,0.8);
+	padding: 1rem;
+	border-radius: 12px;
+	width: 300px;
+	min-height: 350px;
+
+}
+
+.textbox{
+	min-width: 255px;
+	min-height: 25px;
+	outline: none;
+	border: 1px solid black;
+	border-radius: 8px;
+	padding-left: 7px;
+	background: lightgrey;
+}
+
+.loginBtn{
+	background: black;
+	border: none;
+	color: white;
+	font-family: "Open Sans", sans-serif;
+	padding-top: 5px ;
+	padding-bottom: 5px ;
+	margin-top: 10px;
+	font-size: 20px;
+	width: 100%;
+	cursor: pointer;
+	transition: all 0.3 ease ;
+	box-shadow: 0 4px 4px rba(0,0,0, 0.2);
+	border-radius: 10px;
+	
+}
+
+
+
+
