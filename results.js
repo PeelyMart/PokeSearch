@@ -41,7 +41,7 @@ document.getElementById("cell-SpcDfs-Base").textContent = pokemon.stats[4].base_
 document.getElementById("cell-SpcDfs-Effort").textContent = pokemon.stats[4].effort;
 
 function pathGen(typeOBJ){
-	return `resources/pokeIcon/icons/${typeOBJ.name}.svg`
+	return `Resources/pokeIcon/icons/${typeOBJ.name}.svg`
 
 }
 
