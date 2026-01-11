@@ -1,102 +1,118 @@
+/* Import Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
-
-h1{
-	font-family: "Open Sans", sans-serif;
-	padding: 1px;
-	margin-bottom: -20px;
-	color: black; 
+/* --- Global Styles --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-
-body{
-	margin: 0;
-	min-height: 100vh;
-	background-image: linear-gradient(to bottom,#ff0000, #ffffff);
+body {
+    font-family: "Open Sans", sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #ff0000, #ffffff);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.container{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
 }
 
-.titlebox{
-	align-items: center;
-	justify-content: center;
-	padding-bottom: 25px; 
+/* --- Container / Box --- */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
-label{
-	font-family: "Open Sans", sans-serif;
-	padding-top: 10px;
-	padding-bottom: 5px;
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 2rem;
+    border-radius: 12px;
+    width: 320px;
+    min-height: 350px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.imageLogo{
-	padding-left: 50px;
-	padding-bottom: 1px;
-	margin-bottom: -20px;
-	width: 100px;
-	height: 100px;
-
+/* --- Title Section --- */
+.titlebox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
 }
 
-.errMsg{
-	font-size: 10px;
-	color: red;
-	margin-top: 5px;
-	margin-bottom:-5px;
+.titlebox img.imageLogo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
 }
 
-.inputContainer{
-	margin-top: -50;
-	display: flex;
-	justify-content: right;
-
+.titlebox h1 {
+    font-size: 24px;
+    color: #000;
 }
 
-.box{
-	display: flex;
-	justify-content: center;
-	flex-direction:  column;
-	align-items: center;
-	background: rgba(255,255,255,0.8);
-	padding: 1rem;
-	border-radius: 12px;
-	width: 300px;
-	min-height: 350px;
-
+/* --- Input Section --- */
+.inputContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.textbox{
-	min-width: 255px;
-	min-height: 25px;
-	outline: none;
-	border: 1px solid black;
-	border-radius: 8px;
-	padding-left: 7px;
-	background: lightgrey;
+label {
+    font-size: 14px;
 }
 
-.loginBtn{
-	background: black;
-	border: none;
-	color: white;
-	font-family: "Open Sans", sans-serif;
-	padding-top: 5px ;
-	padding-bottom: 5px ;
-	margin-top: 10px;
-	font-size: 20px;
-	width: 100%;
-	cursor: pointer;
-	transition: all 0.3 ease ;
-	box-shadow: 0 4px 4px rba(0,0,0, 0.2);
-	border-radius: 10px;
-	
+.textbox {
+    width: 100%;
+    min-height: 35px;
+    padding: 6px 10px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    outline: none;
+    background: #e0e0e0;
+    font-size: 14px;
 }
 
+.errMsg {
+    color: red;
+    font-size: 12px;
+}
+.loginBtn {
+    width: 100%;
+    flex-shrink: 0;
+    padding: 8px 0;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.2);
+}
 
+.loginBtn:hover {
+    background: #222;
+}
+
+footer {
+	margin-top: 500px;
+
+}
 
 

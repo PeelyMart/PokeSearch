@@ -18,11 +18,7 @@ document.getElementById("search").addEventListener("click", async function(){
 	document.getElementById("errMsg").textContent = "Pokemon not found!";
 
 	}
-
-
 })
-
-
 
 async function fetchData(query){
 

@@ -3,22 +3,88 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<style rel="stylesheet" href="results.css"></style>
+	<title>Results</title>
+	<link rel="stylesheet" href="results.css">
 </head>
 <body>
 
 	<div class="container">
 		<div class="centerBox">
-			<h1 class = "pokeName"> </h1>
+			<div class="headerBox">
+				<img src="Resources/pokeCon.png" class = "pokeBall">
+				<h1 class = "headerInfo">PokéData</h1>
+			</div>
+			<div class="mainBox">
+				<div class="westBox">
+					<div class="spriteContainer">
+						<img src="" alt="" id="spriteImg">
+					</div>
+					<div class="typeBox" id="typeBox">
+						
+
+					</div>
+				</div>
+
+				<div class="eastBox">
+					<h2 class = "pokeName" id = "pokeName"></h2>
+					<div class="descriptionBox">
+						<table class="pokemonTable">
+							<tr> 
+								<th>Attr</th>
+								<th>Base Stat</th>
+								<th>Effort</th>
+
+							</tr>
+							<tr>
+								<td>HP</td>
+								<td id="cell-HP-Base"></td>
+								<td id="cell-HP-Effort"></td>
+							</tr>
+							<tr>
+								<td>Attack</td>
+								<td id="cell-Atk-Base"></td>
+								<td id="cell-Atk-Effort"></td>
+							</tr>
+							<tr>
+								<td>Defense</td>
+								<td id="cell-Dfs-Base"></td>
+								<td id="cell-Dfs-Effort"></td>
+							</tr>
+							<tr>
+								<td>Speed</td>
+								<td id="cell-Spd-Base"></td>
+								<td id="cell-Spd-Effort"></td>
+							</tr>
+							<tr>
+								<td>Special Atk</td>
+								<td id="cell-SpcAtk-Base"></td>
+								<td id="cell-SpcAtk-Effort"></td>
+
+							</tr>
+							<tr>
+								<td>Special Dfs</td>
+								<td id="cell-SpcDfs-Base"></td>
+								<td id="cell-SpcDfs-Effort"></td>
+
+							</tr>
+
+						</table>
+					</div>
+				
+
+					
+
+				</div>
 
 
 
+
+
+
+			</div>
 		</div>
 	</div>
-
-
-
-		
+	<script src="results.js"></script>	
 </body>
+
 </html>
