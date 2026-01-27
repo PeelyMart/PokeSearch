@@ -7,10 +7,11 @@ A simple web application that demonstrates frontend–backend interaction using 
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/main-ui.png" width="250">
-  <img src="screenshots/search-result.png" width="250">
-  <img src="screenshots/multi-type.png" width="250">
+  <img src="screenshots/main-ui.png" style="width:250px; height:450px; object-fit:cover;">
+  <img src="screenshots/search-result.png" style="width:250px; height:450px; object-fit:cover;">
+  <img src="screenshots/multi-type.png" style="width:250px; height:450px; object-fit:cover;">
 </p>
+
 
 ---
 
